@@ -1,0 +1,48 @@
+[
+	{
+		"node": {
+			"author": {
+				"login": "alonalon"
+			},
+			"url": "https://github.com/sindresorhus/npm-home/pull/6",
+			"state": "MERGED",
+			"mergedAt": "2017-09-23T08:54:06Z"
+		}
+	}, {
+		"node": {
+			"author": {
+				"login": "alonalon"
+			},
+			"url": "https://github.com/gillstrom/dpn/pull/2",
+			"state": "MERGED",
+			"mergedAt": "2017-09-23T10:47:04Z"
+		}
+	}, {
+		"node": {
+			"author": {
+				"login": "alonalon"
+			},
+			"url": "https://github.com/gillstrom/dpn-cli/pull/1",
+			"state": "MERGED",
+			"mergedAt": "2017-09-23T10:46:42Z"
+		}
+	}, {
+		"node": {
+			"author": {
+				"login": "alonalon"
+			},
+			"url": "https://github.com/sindresorhus/caprine/pull/292",
+			"state": "MERGED",
+			"mergedAt": "2017-09-29T07:02:43Z"
+		}
+	}, {
+		"node": {
+			"author": {
+				"login": "alonalon"
+			},
+			"url": "https://github.com/sindresorhus/caprine/pull/293",
+			"state": "MERGED",
+			"mergedAt": "2017-09-29T07:05:23Z"
+		}
+	}
+]

@@ -4,7 +4,7 @@ import micro from 'micro';
 import delay from 'delay';
 import nock from 'nock';
 import testListen from 'test-listen';
-import fixture from './fixture/response';
+import fixture from './fixture/response.json';
 
 let url;
 
@@ -14,8 +14,8 @@ const USERNAME = process.env.GITHUB_USERNAME;
 
 test.before(async () => {
 	process.env.ACCESS_ALLOW_ORIGIN = '*';
-	process.env.GITHUB_TOKEN = 'cats';
-	process.env.GITHUB_USERNAME = 'sindresorhus';
+	process.env.GITHUB_TOKEN = 'token';
+	process.env.GITHUB_USERNAME = 'alonalon';
 
 	const response = {
 		data: {
@@ -28,6 +28,7 @@ test.before(async () => {
 	};
 
 	nock('https://api.github.com/graphql')
+		.persist()
 		.filteringPath(pth => `${pth}/`)
 		.matchHeader('authorization', `bearer ${process.env.GITHUB_TOKEN}`)
 		.post('/')
@@ -52,4 +53,5 @@ test('fetch latest pull request for user', async t => {
 test('set origin header', async t => {
 	const {headers} = await got(url, {json: true});
 	t.is(headers['access-control-allow-origin'], '*');
+	t.is(headers['cache-control'], 's-maxage=86400, max-age=0');
 });

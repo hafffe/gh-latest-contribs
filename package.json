@@ -18,16 +18,16 @@
 	},
 	"dependencies": {
 		"control-access": "^0.1.0",
-		"delay": "^2.0.0",
-		"got": "^7.1.0",
+		"delay": "^4.3.0",
+		"got": "^9.6.0",
 		"graphql-got": "^0.1.1",
-		"meow": "^3.7.0",
+		"meow": "^5.0.0",
 		"micro": "^9.0.0",
 		"test-listen": "^1.0.2"
 	},
 	"devDependencies": {
-		"ava": "^0.20.0",
-		"nock": "^9.0.22",
-		"xo": "^0.18.2"
+		"ava": "^2.4.0",
+		"nock": "^11.6.0",
+		"xo": "^0.25.3"
 	}
 }

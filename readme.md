@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/alonalon/gh-latest-contribs/tree/master.svg?style=svg)](https://circleci.com/gh/alonalon/gh-latest-contribs/tree/master)
 # gh-latest-contribs
 
 > Get your latest contributions as microservice

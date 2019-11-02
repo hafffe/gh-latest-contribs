@@ -1,0 +1,11 @@
+
+{
+	"version": 2,
+	"alias": "gh-latest-contribs",
+	"builds": [
+		{
+			"src": "index.js",
+			"use": "@now/node"
+		}
+	]
+}

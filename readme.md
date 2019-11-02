@@ -12,7 +12,7 @@ Heavily inspired by [sindresorhus/gh-latest-repos](https://github.com/sindresorh
 or
 
 ```
-$ now alonalon/gh-latest-contribs -e NODE_ENV=production -e GITHUB_TOKEN=xxx -e GITHUB_USERNAME=xxx -e ACCESS_ALLOW_ORIGIN=xxx -e MAX_COUNT=8
+$ now gh-latest-contribs --env NODE_ENV=production --env GITHUB_TOKEN=xxx --env GITHUB_USERNAME=xxx --env ACCESS_ALLOW_ORIGIN=xxx --env MAX_COUNT=8
 ```
 
 ### Manual
